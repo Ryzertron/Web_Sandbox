@@ -1,0 +1,69 @@
+.headline{
+    color: #121212;
+    display: block;
+    text-align: center;
+    font-size: 32px;
+}
+.stadium{
+    border-color:#121212;
+    border-style: solid;
+    border-width: 3px;
+    display: block;
+    width: 380px;
+    margin-left: auto;
+    margin-right:auto;
+     
+}
+
+.quote{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.text{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right:auto;
+    border-style:solid;
+    border-color:#121212;
+    border-width:3px;
+    display: block;
+    width: 210px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:10px;   
+}
+
+.join{
+    color: white;
+    font-weight:bold;
+    display:block;
+    width: 220px;
+    background-color: #121212;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom:10px;
+}
+
+.linker{
+    color: #121212;
+    text-align: center;
+    font-style: italic;
+}
+
+.hyperlink{
+    color:#121212;
+}
