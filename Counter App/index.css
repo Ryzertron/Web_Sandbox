@@ -1,0 +1,73 @@
+@font-face {
+    src: url(Font.ttf);
+    font-family: Nicer;
+    
+}
+body{
+    user-select: none;
+    margin: 0px;
+
+}
+#main{
+    height: 100lvh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("bckgrnd.jpg");
+    color:whitesmoke;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+
+
+#count-heading{
+   
+    margin: 0px;
+    padding: 20px;
+    color: rgb(110, 112, 238);
+    text-shadow: 0 0 150px rgb(153, 90, 255);
+    font-size: 10em;
+    font-family: Nicer;
+}
+
+#count{
+   
+    display: inline;
+    color: rgb(139, 199, 248);
+    text-shadow: 0 0 100px rgb(106, 179, 243);
+    font-family: Nicer;
+    font-size: 16em;
+    margin: 0px;
+    padding: 10px;
+}
+
+.ctrl-btn{
+    background: transparent;
+    color: rgb(198, 99, 255);
+    border:3px solid rgb(215, 126, 251);
+    border-radius: 200px;
+    font-size: 4em;
+    margin: 20px 10px;
+    width: 180px;
+    padding: 4px 0px;
+}
+
+.ctrl-btn:hover{
+    color:rgba(198, 99, 255, 0.8);
+
+}
+
+#RST{
+    background-color: rgb(49, 176, 55);
+    color:rgb(0, 0, 0);
+    font-size: 5em;
+    width:360px;
+    border-radius: 10px;
+    font-family: Nicer;
+    background-blend-mode: hard-light;
+}
+
+#RST:hover{
+    background-color:rgb(64, 211, 71);
+
+}
