@@ -1,0 +1,113 @@
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: rgb(30,43,54);
+    color:whitesmoke;
+    margin-top: 80px;
+    padding: 20px;
+    user-select: none;
+}
+
+#gen{
+    margin: 0px;
+    font-family: "lato";
+    font-size: 45px;
+}
+
+#random{
+    margin: 10px 0px;
+    font-size: 50px;
+    font-family: "Play";
+    font-weight: 700;
+    color: rgb(73,222,132);
+}
+
+#never{
+    margin: 40px 0px;
+    font-size: 25px;
+    font-family: "lato";
+    color: gray;
+}
+
+#generate{
+    background-color: rgb(73,222,132);
+    border: 0;
+    color:rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 25px;
+    padding:10px 25px;
+    font-weight: 450;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    margin-top: 40px;
+    text-shadow:0 0 20px black;
+}
+
+#generate:hover{
+    background-color: rgb(54, 142, 65);
+}
+
+#hr{
+    border-color: grey;
+}
+
+#output{
+    display: none;
+    margin: 50px auto;
+}
+
+.output-el{
+    display: flex;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin:25px 0px;
+    background-color: rgb(39,53,73);
+    width: 360px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+#pass1, #pass2, #pass3, #pass4{
+    padding-left: 10px;
+    padding-right: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cpy-btn{
+    height: 50px;
+    background-color: rgb(33, 36, 47);
+    border-style:hidden;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:aqua;
+}
+
+.cpy-btn:hover{
+    background-color: rgb(13, 12, 18);
+}
